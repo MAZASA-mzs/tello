@@ -24,8 +24,8 @@ pyhton3 -m pip install PILLOW
 ```
 
 Modul _h264decoder_ is developed by [DaWelter](https://github.com/DaWelter/h264decoder) and it must be compiled on you own machine (so, the only limit of using _Tello_ modul is compilation this decoder)
-We also provide [Builds](https://github.com/MAZASA-mzs/tello/tree/master/Pylot%20form/Builds) with compiled codec for 3.9.* Linux and Windows x86_64
-If toy used it, just copy _h264doceder_ directory into your project. Else, compile h264decoder yourself and move out files to _h264decoder_ subdirectory in you project
+We also provide [Builds](https://github.com/MAZASA-mzs/tello/tree/master/Pylot%20form/Builds) with compiled codec for 3.9.* Linux and Windows x86_64.
+If you use it, just copy _h264doceder_ directory into your project. Else, compile h264decoder yourself and move out files to _h264decoder_ subdirectory in you project.
 
 ```bash
 cd proj_path/
@@ -65,7 +65,7 @@ import text_ananlyzer
 from text_ananlyzer import check_code run_code
 ```
 
-See [README](https://ll.l) (or _help_ in Python) for more information
+See [README](https://github.com/MAZASA-mzs/tello/tree/master/Text%20analyzer#text-analyzer) (or _help_ in Python) for more information
 ```python
 >>> ckeck_code(some_text)
 (0, 'some error')

@@ -1,8 +1,8 @@
 # Pylot form
 ## _Graphic interface for drone programming._
 
-## Installation.
-See [Requirements](https://github.com/MAZASA-mzs/tello/tree/master/)
+## Installation
+See [Requirements](https://github.com/MAZASA-mzs/tello#requirements)
 Then, copy files from some version [Builds](https://github.com/MAZASA-mzs/tello/tree/master/Pylot%20form/Builds)
 Change locale if you want (see next).
 To run form, execute _main.py_ with you Python 3.

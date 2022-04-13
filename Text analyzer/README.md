@@ -5,7 +5,7 @@
 - check_code: check syntax of some text
 - run_code: yields per command if code is OK
 
-## check_code
+### check_code
 ```
 check_code(text, local_dict=None)
     Check if code is syntactically correct (it must be localezed)
@@ -26,7 +26,7 @@ check_code(text, local_dict=None)
             if flag is 1 : list with separeted commands (with cyclies)
 ```
 
-## run_code
+### run_code
 
 ```
 run_code(text, local_dict=None)
