@@ -4,9 +4,9 @@
 
 
 ## Content:
-- [Tello](https://github.com/MAZASA-mzs/tree/master/Tello) - main modul for communication with drons DJI Tello
+- [Tello](https://github.com/MAZASA-mzs/tello/tree/master/Tello) - main modul for communication with drons DJI Tello
 - [Text analyzer](https://github.com/MAZASA-mzs/tello/tree/master/Text%20analyzer) - modul for parsing Tello_lang text
-- [Pylot form](https://github.com/MAZASA-mzs/tello/tree/master/Pylot%20from) - graphic form for programming drones with Tello_lang
+- [Pylot form](https://github.com/MAZASA-mzs/tello/tree/master/Pylot%20form) - graphic form for programming drones with Tello_lang
 
 _Tello_ and _Text_analyzer_ modules can be used separatly from each other
 
@@ -35,7 +35,7 @@ cp compiled_decoder/* ./h264decoder/
 
 ## Usage:
 
-### [Tello](https://github.com/MAZASA-mzs/tree/master/Tello)
+### [Tello](https://github.com/MAZASA-mzs/tello/tree/master/Tello)
 Import _Tello_ class from modul tello in your project and creat one _Tello_ object
 
 ```python
@@ -43,7 +43,7 @@ from tello import Tello
 t = Tello()
 ```
 
-Now you can use all methodes to comminicate with drone (see [README](https://t.r) or documentation)
+Now you can use all methodes to comminicate with drone (see [README](https://github.com/MAZASA-mzs/tello/tree/master/Tello#Tello) or documentation)
 - connect
 - disconnect
 - send_cmd (send command to drone)
