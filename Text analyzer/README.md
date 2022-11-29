@@ -44,6 +44,6 @@ run_code(text, local_dict=None)
     ------
     str:
         command for drone
-        (None is text is incorrect)
+        (None if text is incorrect)
 ```
 
